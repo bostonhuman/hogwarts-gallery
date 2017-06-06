@@ -1,4 +1,4 @@
-# tree-project 4
+# Hogwarts Gallery
 
 In this project, we develop a photo gallery page.
 
@@ -13,6 +13,6 @@ In this project, we develop a photo gallery page.
 
 * In your terminal:
 ```
-git clone https://github.com/bostonhuman/tree-project4
+git clone https://github.com/bostonhuman/hogwart-gallery
 ```
 * Open `index.html`.
