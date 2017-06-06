@@ -23,7 +23,7 @@ input[type="text"] {
 }
 img {
 	transition-property: transform;
-	transition-duration: .5s;
+	transition-duration: .3s;
 }
 a:hover img {
 	transform: scale(1.1);
