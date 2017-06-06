@@ -1,0 +1,97 @@
+/*==General rules==*/
+* {
+	box-sizing: border-box;
+}
+body {
+	margin: 0;
+	padding: 0;
+	font-family: 'Baloo', cursive, arial, sans-serif;
+}
+/*==styling container==*/
+.container {
+	max-width: 1150px;
+	text-align: center;
+	line-height: 1.5;
+	margin: 20px auto;
+	padding: 10px;
+}
+input[type="text"] {
+	width: 400px;
+	height: 40px;
+	padding: 10px;
+	font-size: 17px;
+}
+img {
+	transition-property: transform;
+	transition-duration: .5s;
+}
+a:hover img {
+	transform: scale(1.1);
+}
+.lightbox .lb-image {
+	width: 500px;
+}
+.lb-data .lb-caption {
+	font-size: 22px;
+}
+.container p {
+	margin-top: -20px;
+	color: #27C46D;
+	font-size: 20px;
+	font-weight: bold;
+}
+/*==design jquery plugin close button==*/
+.lb-data .lb-close {
+	margin-top: -555px;
+	margin-right: -70px;
+	display: none;
+}
+
+
+/*====applying media queries for mobile====*/
+@media (min-width: 320px) {
+	.container {
+		width: 90%;
+	}
+
+	input[type="text"] {
+		width: 80%;
+	}
+	img {
+		width: 90%;
+		border-radius: 5px;
+	}
+}
+
+@media (min-width: 510px) {
+	.container {
+		width: 100%;
+	}
+	img {
+		width: 40%;
+	}
+}
+
+/*====applying media queries for tablet====*/
+@media (min-width: 768px) {
+	.container {
+		width: 90%;
+	}
+	img {
+		width: 30%;
+	}
+}
+
+/*====applying media queries for min-width: 1024px====*/
+@media (min-width: 1024px) {
+	.container {
+		width: 100%;
+	}
+	img {
+		width: 20%;
+		margin: 15px;
+	}
+	input[type="text"] {
+		width: 50%;
+	}
+}
